@@ -1,0 +1,22 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Заготовка для второй домашней работы",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo\"Error: no tect specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yandex-Practicum/kb-backend-week-2-startkit.git"
+  },
+  "author": "YandexPracticum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yandex-Practicum/kb-backend-week-2-startkit"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
