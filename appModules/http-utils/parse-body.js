@@ -5,7 +5,7 @@ let body = "";
       body += chunk.toString();
     });
     req.on("end", () => {
-      resolve(body);
+      resolve(null, body);
     });
     req.on("error", (error) => {
         reject(error, null);
