@@ -1,9 +1,10 @@
-const config = require("./config");
+const {PATH_TO_RATING_FILE,WEIGHT} = require("./config");
 const makeRatingFile = require("./rating-file");
 const {createRating,updateRating} = require("./calculations")
 
 module.exports ={
-    config,
+    PATH_TO_RATING_FILE,
+    WEIGHT,
     makeRatingFile,
     createRating, 
     updateRating
